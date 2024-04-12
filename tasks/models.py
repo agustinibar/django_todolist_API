@@ -6,5 +6,5 @@ class Task(models.Model):
     description= models.TextField(blank=True)
     donde= models.BooleanField(default=False)
     
-    # def __self__(self):
-    #     return self.tiitle
+    def __str__(self) :
+        return self.tittle
